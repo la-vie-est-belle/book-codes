@@ -1,0 +1,12 @@
+/* 鼠标悬停在按钮上 */
+QPushButton:hover {
+    background-color: red;
+}
+/* 按钮被按下 */
+QPushButton:pressed {
+    background-color: green;
+}
+/* 按钮被禁用 */
+QPushButton:disabled {
+    background-color: blue;
+}

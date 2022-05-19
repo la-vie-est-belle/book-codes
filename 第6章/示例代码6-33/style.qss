@@ -1,0 +1,20 @@
+/* 所有文本的颜色都设为红色 */
+* {color: red;}
+
+/* 把所有QPushButton控件及其子类的背景颜色设为蓝色 */
+QPushButton {background-color: blue;}
+
+/* 把所有name属性为"btn"的QPushButton控件的背景色设为绿色 */
+QPushButton[name="btn"] {background-color: green;}
+
+/* 把所有QLineEdit控件(不包括子类)的文本字体变粗，大小设为20px */
+.QLineEdit {font: bold 20px;}
+
+/* 选择所有objectName为"cb"的QComboBox控件，将它们上面的文本颜色设为蓝色 */
+QComboBox#cb {color: blue;}
+
+/* 把所有直接和间接包含在QGroupBox中的QLabel控件文本颜色设为蓝色 */
+QGroupBox QLabel {color: blue;}
+
+/* 把所有直接包含在QGroupBox中的QLabel控件文本字体大小设为30px */
+QGroupBox > QLabel {font: 30px;}

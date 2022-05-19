@@ -1,0 +1,6 @@
+没有去黑框
+nuitka --standalone --include-data-dir=./res=./res --enable-plugin=pyqt5 --windows-icon-from-ico=./res/image/snake.ico main.py
+
+去掉黑框
+nuitka --standalone --include-data-dir=./res=./res --enable-plugin=pyqt5 --windows-icon-from-ico=./res/image/snake.ico --windows-disable-console  main.py
+

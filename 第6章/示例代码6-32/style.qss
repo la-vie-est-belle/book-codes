@@ -1,0 +1,12 @@
+QPushButton {
+    font-size: 50px;
+    color: red;
+}
+QLabel {
+    font-size: 50px;
+    color: red;
+}
+QLineEdit {
+    font-size: 50px;
+    color: red;
+}

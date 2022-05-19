@@ -1,0 +1,6 @@
+没有去黑框
+pyinstaller --upx-dir=./upx-3.96-win64 --add-data=./res/audio/*;./res/audio/ --add-data=./res/image/*;./res/image/ -i ./res/image/snake.ico main.py
+
+去掉黑框
+pyinstaller --upx-dir=./upx-3.96-win64 --add-data=./res/audio/*;./res/audio/ --add-data=./res/image/*;./res/image/ -i ./res/image/snake.ico -w main.py
+

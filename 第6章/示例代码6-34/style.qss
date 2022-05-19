@@ -1,0 +1,9 @@
+/* 给向上按钮添加一张图片 */
+QSpinBox::up-button {
+    image: url(up.png);
+}
+
+/* 给向下按钮添加一张图片 */
+QSpinBox::down-button {
+    image: url(down.png);
+}

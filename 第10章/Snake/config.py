@@ -1,0 +1,30 @@
+from PyQt5.QtGui import QColor
+
+# 方块宽度
+BLOCK_WIDTH = 16
+
+# 水平和垂直方向上的方块数量
+HORIZONTAL_BLOCK_NUM = 40
+VERTICAL_BLOCK_NUM = 30
+
+# 屏幕宽高
+SCENE_WIDTH = BLOCK_WIDTH * HORIZONTAL_BLOCK_NUM
+SCENE_HEIGHT = BLOCK_WIDTH * VERTICAL_BLOCK_NUM
+
+# 背景颜色
+BG_COLOR = QColor(152, 167, 128)
+
+# 食物颜色
+FOOD_COLOR = QColor(133, 54, 47)
+
+# 方块颜色
+BLOCK_COLOR = QColor(38, 38, 38)
+
+# 规定贪吃蛇可移动区域的起始和结束坐标
+AREA_START_X = 1
+AREA_START_Y = 5
+AREA_END_X = HORIZONTAL_BLOCK_NUM - 2
+AREA_END_Y = VERTICAL_BLOCK_NUM - 2
+
+# 计时器间隔，用来控制贪吃蛇速度（间隔越小，移动越快）
+INTERVAL = 100
